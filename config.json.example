@@ -1,0 +1,29 @@
+{
+  "token": "",
+  "prefix": "meow.",
+  "ownerID": "",
+  "color": "#c36fe2",
+
+  "inviteLink": "",
+  "showInviteLinkInHelp": false,
+
+  "messageOptions": {
+    "disableMentions": "everyone",
+    "split": true
+  },
+
+  "logging": {
+    "enabled": true,
+    "dir": "./data/logs/",
+    "levels": ["master", "debug", "info", "error"],
+    "channel": ""
+  },
+
+  "corpusPath": "./data/corpus.log",
+  "randomResponseChance": 18,
+  "randomResponseCooldown": 4,
+  "ignoreBots": false,
+  "learnFromBots": false,
+  "ignoreDirectMessages": true,
+  "learnFromDirectMessages": false
+}

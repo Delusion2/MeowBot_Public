@@ -28,7 +28,7 @@ module.exports = {
         let totalUsers = 0;
         let totalServers = Guilds.length;
         for (let g of Guilds) {
-            c.server(client, `Connected`.padEnd(24, " ") + ` ${g[1]}`.padEnd(26) + ` users: ${g[2]}`);
+            // c.server(client, `Connected`.padEnd(24, " ") + ` ${g[1]}`.padEnd(26) + ` users: ${g[2]}`);
             totalUsers += g[2];
         }
         c.server(client, `Ready`.padEnd(24, " ") + ` servers: ${totalServers}`.padEnd(26, " ") + ` users: ${totalUsers}`);

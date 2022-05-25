@@ -104,7 +104,7 @@ module.exports = {
             const msg = line("LOGCHAN", getDateTime(), `${message}`.newLine());
             console.log(msg);
             log.write(msg);
-            chan.send(`${message}`.newLine());
+            // chan.send(`${message}`.newLine());
             return;
         }
         catch (error) {

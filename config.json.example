@@ -25,5 +25,7 @@
   "ignoreBots": false,
   "learnFromBots": false,
   "ignoreDirectMessages": true,
-  "learnFromDirectMessages": false
+  "learnFromDirectMessages": false,
+
+  "gifKey": ""
 }
